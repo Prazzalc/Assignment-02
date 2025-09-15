@@ -32,6 +32,11 @@
     color: rgba(0, 0, 0, 0.5);
 }
 
+.shop {
+    text-decoration: none;
+    color: white;
+}
+
 /* body styles */
 
 
@@ -188,4 +193,51 @@ nav a {
     margin-top: 20px;
     padding: 0px;
 
+}
+
+
+/* deal section style */
+
+.deal-text {
+    text-align: center;
+}
+
+.deal-title {
+    font-size: 50px;
+}
+
+.deal-desc {
+    font-size: 22px;
+}
+
+.deal-offers {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+}
+
+.offer-1 {
+    background-image: url("../images/deal-bloom.png");
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    max-width: 367px;
+    height: 200px;
+    border-radius: 14px;
+}
+.offer-2 {
+    background-image: url("../images/deal-zabo.png");
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    border-radius: 22px;
+}
+.offer-3 {
+    background-image: url("../images/deal-ana.png");
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center; 
+    max-width: 367px;
+    height: 200px;
+    border-radius: 14px;
 }
