@@ -33,7 +33,6 @@
 }
 
 .shop {
-    text-decoration: none;
     color: white;
 }
 
@@ -42,7 +41,7 @@
 
 body {
     max-width: 1140px;
-    margin: auto;
+    margin: 0 auto;
 }
 
 
@@ -212,7 +211,7 @@ nav a {
 
 .deal-offers {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr) 2fr;
     gap: 16px;
 }
 
@@ -225,6 +224,9 @@ nav a {
     height: 200px;
     border-radius: 14px;
 }
+
+
+
 .offer-2 {
     background-image: url("../images/deal-zabo.png");
     background-repeat: no-repeat;
@@ -241,3 +243,28 @@ nav a {
     height: 200px;
     border-radius: 14px;
 }
+
+.offer-1 h5, .offer-3 h5 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.offer-2 h5 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.offer-2 a {
+    font-size: 28px;
+}
+
+/* 
+/* join section style */
+
+/* .join-section {
+    width: 100vw;
+    max-width: 1440px;
+    margin: 0 auto;
+    background-image: url("../images/news-letter-bg.png");
+    height: 533px;
+} */ 
