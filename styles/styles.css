@@ -228,7 +228,9 @@ nav a {
 }
 
 .offer-1 {
-    background-image: url("../images/deal-bloom.png");
+    background: linear-gradient(rgba(0,0,0,0.4), 
+                rgba(0,0,0,0.4)),
+                url('../images/deal-bloom.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -237,10 +239,10 @@ nav a {
     border-radius: 14px;
 }
 
-
-
 .offer-2 {
-    background-image: url("../images/deal-zabo.png");
+    background: linear-gradient(rgba(0,0,0,0.4), 
+                rgba(0,0,0,0.4)),
+                url('../images/deal-zabo.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -251,8 +253,12 @@ nav a {
     border-radius: 22px;
     grid-row: span 2;
 }
+
+
 .offer-3 {
-    background-image: url("../images/deal-ana.png");
+    background: linear-gradient(rgba(0,0,0,0.4), 
+                rgba(0,0,0,0.4)),
+                url('../images/deal-ana.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
