@@ -36,6 +36,14 @@
     color: white;
 }
 
+.offer-padding {
+    padding: 60px 50px 60px 50px;
+}
+
+.offer-radius {
+    border-radius: 14px;
+}
+
 /* body styles */
 
 
@@ -197,6 +205,10 @@ nav a {
 
 /* deal section style */
 
+.deal-section {
+    margin-bottom: 50px;
+}
+
 .deal-text {
     text-align: center;
 }
@@ -211,17 +223,17 @@ nav a {
 
 .deal-offers {
     display: grid;
-    grid-template-columns: repeat(1, 1fr) 2fr;
+    grid-template-columns: 1fr 2fr;
     gap: 16px;
 }
 
 .offer-1 {
     background-image: url("../images/deal-bloom.png");
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
-    color: white;
     text-align: center;
-    max-width: 367px;
-    height: 200px;
+    background-color: black;
     border-radius: 14px;
 }
 
@@ -229,36 +241,50 @@ nav a {
 
 .offer-2 {
     background-image: url("../images/deal-zabo.png");
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
-    color: white;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 22px;
+    grid-row: span 2;
 }
 .offer-3 {
     background-image: url("../images/deal-ana.png");
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
-    color: white;
     text-align: center; 
-    max-width: 367px;
-    height: 200px;
     border-radius: 14px;
+}
+
+.deal-offers a {
+    font-weight: 600;
 }
 
 .offer-1 h5, .offer-3 h5 {
     font-size: 20px;
-    margin-bottom: 20px;
+    font-weight: bold;
+    color: white;
+    margin: 10px 0;
 }
+
 
 .offer-2 h5 {
     font-size: 40px;
+    margin-top: 20px;
     margin-bottom: 20px;
+    color: white;
 }
 
 .offer-2 a {
     font-size: 28px;
 }
 
-/* 
+
+
 /* join section style */
 
 /* .join-section {
