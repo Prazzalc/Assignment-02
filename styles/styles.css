@@ -174,11 +174,39 @@ nav a {
 
 
 
+/* challenge part */
+
+
+.challenge-section {
+    position: relative;
+    margin-top: 200px;
+}
+
+
+.overlap-image {
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+    left: 725px;
+    top: -15%;
+    
+}
+
+.overlap-image img {
+    width: 286px;
+    height: 286px;
+    filter: drop-shadow(-3px 12px 2px rgba(0, 0, 0, 0.3));
+}
+
+
+
+
 
 
 /* flower lover style */
 
 .flower-lover {
+    position: relative;
     display: flex;
     gap: 60px;
     align-items: center;
@@ -390,3 +418,4 @@ footer {
     margin-top: 10px;
     margin-left: 5px;
 }
+
