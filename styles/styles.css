@@ -344,3 +344,49 @@ nav a {
 .subscribe-area input:focus {
   outline: none;
 }
+
+
+/* footer style */
+
+
+footer {
+    max-width: 1120px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 75px;
+    margin-top: 50px;
+}
+
+.logo-area p {
+    font-size: 22px;
+}
+
+.footer-links ul {
+    margin: 0;
+}
+
+.footer-links ul li{
+    display: grid;
+    gap: 32px;
+    text-decoration: none;
+    padding: 0;
+}
+
+.footer-links ul li a{
+
+    text-decoration: none;
+    color: rgba(107, 114, 128, 1);
+    
+}
+
+.social-area {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+}
+
+#tweet {
+    margin-top: 10px;
+    margin-left: 5px;
+}
