@@ -258,6 +258,12 @@ nav a {
     margin-top: 120px;
 }
 
+/* for query extra */
+.query-p {
+
+    display: none;
+}
+
 .offer-1 {
     background: linear-gradient(rgba(0,0,0,0.4), 
                 rgba(0,0,0,0.4)),
@@ -419,3 +425,58 @@ footer {
     margin-left: 5px;
 }
 
+
+
+/* media query for small device */
+
+@media screen and (max-width: 576px) {
+    .home-tag, .shop-tag, .about-tag{
+        display: none;
+    }
+
+    .banner-section {
+    display: grid;
+    justify-content: space-between;
+    align-items: end;
+    margin-top: 120px;
+    }
+    .banner-section img {
+        grid-row: 1;
+    }
+    .product-info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    }
+
+    .overlap-image {
+        display: none;
+    }
+
+    .flower-lover {
+        display: grid;
+        gap: 0;
+    }
+    .flower-title h3{
+        font-size: 30px;
+        margin-top: 0;
+    }
+
+
+    .deal-title {
+        font-size: 30px;
+    }
+
+    .deal-title h3 {
+        margin-bottom: 0;
+    }
+
+    .query-p {
+        display: inline;
+    }
+    
+
+    .text-break {
+        display: none;
+    }
+
+}
